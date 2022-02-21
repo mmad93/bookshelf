@@ -15,9 +15,10 @@ const App = () => {
       <div className="background">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="Hasan" element={<BookDetails />} />
+          <Route path="/" element={<Home />} />
+          <Route path="Hasan" element={<BookDetails />} />
           <Route path="Contact" element={<Contact />} />
+          <Route path="About" element={<p>salam in safeye about ast</p>} />
           <Route path="Contact/:title" element={<Contact />} />
           <Route path="Details/*" element={<Details />}>
             {/* <Route path="bookss" element={<div>salam</div>} /> */}
