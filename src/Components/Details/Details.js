@@ -7,7 +7,7 @@ const Details = () => {
     <div>
       <div>
         <h2>
-          Details, in dokmaro mizani bayad search bar biad, inja ham safeye {title} ast
+          Details, in dokmaro mizani bayad search bar biad, inja ham safeye {title} ast k ba use params dorost shode ast
         </h2>
         <button onClick={() => navigate("/Contact")}>boro be search bar</button>
         <button onClick={() => navigate("bookss")}>boro be bookss</button>
